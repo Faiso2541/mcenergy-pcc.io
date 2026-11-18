@@ -1,0 +1,8 @@
+# Data backups contain contract values and customer contacts — never commit them
+pcc-data*.json
+*.backup.json
+# A copy of index.html that has data saved inside it
+index-with-data*.html
+.vercel
+.DS_Store
+Thumbs.db
